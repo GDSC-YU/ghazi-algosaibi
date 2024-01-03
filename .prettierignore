@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# dependencies
+/node_modules
+pnpm-lock.yaml
+
+# next.js
+/.next/
