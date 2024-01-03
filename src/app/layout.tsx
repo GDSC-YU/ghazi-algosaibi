@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 
-import { Rubik } from "next/font/google";
+import localFont from "next/font/local";
 
 import "./globals.css";
 
-const rubik = Rubik({ subsets: ["latin"] });
+const sfArabicRounded = localFont({
+  src: "fonts/SF-Arabic-Rounded.ttf",
+});
 
 export const metadata: Metadata = {
-  title: "Ghazi Al Gosaibi",
+  title: "غازي القصيبي",
   description:
-    "Ghazi Al Gosaibi: a statesman, diplomat, technocrat, academic, poet, and novelist, integral to the fabric of contemporary Saudi society.",
+    "غازي القصيبي: رجل دولة، دبلوماسي، تكنوقراطي، أكاديمي، شاعر، وروائي، جزء لا يتجزأ من نسيج المجتمع السعودي المعاصر.",
 };
 
 export default function RootLayout({
@@ -18,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={rubik.className}>{children}</body>
+    <html lang="ar" dir="rtl">
+      <body className={sfArabicRounded.className}>{children}</body>
     </html>
   );
 }
