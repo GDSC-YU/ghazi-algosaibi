@@ -7,9 +7,9 @@ import "./globals.css";
 const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ghazi Al Gosaibi",
+  title: "غازي الفصيبي",
   description:
-    "Ghazi Al Gosaibi: a statesman, diplomat, technocrat, academic, poet, and novelist, integral to the fabric of contemporary Saudi society.",
+    "غازي القصيبي: رجل دولة، دبلوماسي، تقنوقراط، أكاديمي، شاعر، وروائي، جزء لا يتجزأ من نسيج المجتمع السعودي المعاصر.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="ar">
       <body className={rubik.className}>{children}</body>
     </html>
   );
