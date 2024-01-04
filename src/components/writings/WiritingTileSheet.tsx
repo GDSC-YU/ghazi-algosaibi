@@ -18,7 +18,7 @@ const WritingTileSheet = () => {
 
           <Sheet.Content>
             <div className="flex flex-col items-center justify-center gap-4">
-              <div className="p-61 rounded-2xl bg-secondary">
+              <div className="rounded-2xl bg-secondary p-6">
                 <img
                   className="rounded-2xl"
                   src={thing?.imageUrl}
