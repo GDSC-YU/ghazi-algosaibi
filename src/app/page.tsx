@@ -1,5 +1,3 @@
-import Header from "@/components/Header";
-
 import Link from "next/link";
 
 import { metadata } from "./layout";
@@ -7,7 +5,6 @@ import { metadata } from "./layout";
 export default function Home() {
   return (
     <>
-      <Header />
       <div className="flex flex-col items-center">
         <h1 className="p-14 text-5xl font-bold">{metadata.title as string}</h1>
 

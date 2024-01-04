@@ -1,10 +1,12 @@
 "use client";
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import magnifyingGlassSolid from "@/app/images/magnifying-glass-solid.svg";
+
 import Image from "next/image";
 
-export default function SearchBar({ placeholder }: { placeholder: string }) {
+import magnifyingGlassSolid from "@images/magnifying-glass-solid.svg";
+
+const SearchBar = ({ placeholder }: { placeholder: string }) => {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
@@ -40,4 +42,6 @@ export default function SearchBar({ placeholder }: { placeholder: string }) {
       </div>
     </div>
   );
-}
+};
+
+export default SearchBar;

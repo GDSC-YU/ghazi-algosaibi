@@ -1,8 +1,9 @@
-import { normalizeArabic } from "@/lib/utils";
-import things from "../lib/things";
-import WritingTile from "./WritingTile";
+import { normalizeArabic } from "@lib/utils";
+import things from "@lib/things";
 
-export default function Writings({ query }: { query: string }) {
+import WritingTile from "./parts/WritingTile";
+
+const Writings = ({ query }: { query: string }) => {
   function searchThings(query: string) {
     if (!query) {
       return things;
@@ -38,4 +39,6 @@ export default function Writings({ query }: { query: string }) {
       </ul>
     )
   );
-}
+};
+
+export default Writings;
