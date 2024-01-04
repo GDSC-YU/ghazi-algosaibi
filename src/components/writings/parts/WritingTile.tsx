@@ -1,13 +1,12 @@
 const WritingTile = ({ thing }: { thing: Thing }) => {
   return (
-    // TODO: rewrite this whole thing
-    <div className="h-96 rounded-2xl bg-orange-700 text-center">
+    <div className="flex flex-col items-center rounded-2xl bg-secondary p-4 text-center">
       <img
-        className="h-80 w-full rounded-t-2xl bg-green-700"
+        className="mb-4 rounded-2xl"
         src={thing.imageUrl}
         alt={thing.title}
       />
-      <h3 className="text-base">{thing.title}</h3>
+      <h3 className="text-xl">{thing.title}</h3>
     </div>
   );
 };

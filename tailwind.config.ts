@@ -10,7 +10,7 @@ const config: Config = {
       colors: {
         primary: "#1E3050",
         secondary: "#F4F5FB",
-        outline: "$6E6D7A",
+        outline: "#6E6D7A",
       },
     },
   },
