@@ -7,13 +7,17 @@ import WritingTileSheetContent from "./WritingTileSheetContent";
 const WritingTileSheet = () => {
   const { thing, setThing } = useWritingTileSheet();
 
+  const handleBackdropTapped = () => {
+    setThing(undefined);
+  };
+
   return (
     <Sheet
       isOpen={thing !== undefined}
       onClose={() => setThing(undefined)}
       detent="content-height"
     >
-      <Sheet.Backdrop>
+      <Sheet.Backdrop onTap={handleBackdropTapped}>
         <Sheet.Container>
           <Sheet.Header />
 
