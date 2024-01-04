@@ -9,7 +9,7 @@ export default function Home() {
       <h1 className="p-14 text-5xl font-bold">{title}</h1>
 
       <Link href="/discover-writings">
-        <p className="bg-primary rounded-2xl px-4 py-2 text-white transition-all hover:scale-105">
+        <p className="rounded-2xl bg-primary px-4 py-2 text-white transition-all hover:scale-105">
           استكشف المؤلّفات
         </p>
       </Link>
