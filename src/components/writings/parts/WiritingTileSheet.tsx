@@ -1,13 +1,16 @@
 "use client";
 
 import Sheet from "react-modal-sheet";
+import Image from "next/image";
+
 import { useWritingTileSheet } from "@/lib/store/WritingTileSheet";
 import WritingTileSheetContent from "./WritingTileSheetContent";
+import xSolid from "@images/x-solid.svg";
 
 const WritingTileSheet = () => {
   const { thing, setThing } = useWritingTileSheet();
 
-  const handleBackdropTapped = () => {
+  const handleCloseIconClicked = () => {
     setThing(undefined);
   };
 
@@ -15,11 +18,18 @@ const WritingTileSheet = () => {
     <Sheet
       isOpen={thing !== undefined}
       onClose={() => setThing(undefined)}
-      detent="content-height"
+      detent="full-height"
     >
-      <Sheet.Backdrop onTap={handleBackdropTapped}>
+      <Sheet.Backdrop>
         <Sheet.Container>
-          <Sheet.Header />
+          <Sheet.Header className="m-4">
+            <div
+              className="flex w-12 flex-col items-center rounded-full bg-secondary p-4 hover:cursor-pointer"
+              onClick={handleCloseIconClicked}
+            >
+              <Image src={xSolid} alt="أيقونة الإغلاق" />
+            </div>
+          </Sheet.Header>
 
           <Sheet.Content>
             <WritingTileSheetContent thing={thing} />
