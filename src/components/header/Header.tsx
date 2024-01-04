@@ -1,7 +1,8 @@
-import HeaderButton from "./HeaderButton";
 import Link from "next/link";
 
-export default function Header() {
+import HeaderButton from "./parts/HeaderButton";
+
+const Header = () => {
   return (
     <header className="flex h-24 flex-row items-center justify-between gap-4 bg-primary px-10">
       <Link href="/" className="text-3xl font-extrabold text-secondary">
@@ -12,4 +13,6 @@ export default function Header() {
       </div>
     </header>
   );
-}
+};
+
+export default Header;

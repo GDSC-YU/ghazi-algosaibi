@@ -1,7 +1,7 @@
-import Header from "@/components/Header";
-import SearchBar from "@/components/SearchBar";
-import Writings from "@/components/Writings";
 import { Suspense } from "react";
+
+import SearchBar from "@components/SearchBar";
+import Writings from "@components/writings";
 
 export default function DiscoverWritings({
   searchParams,
@@ -14,7 +14,6 @@ export default function DiscoverWritings({
 
   return (
     <>
-      <Header />
       <h1 className="p-14 text-center text-4xl font-bold text-primary">
         اكتشف المؤلّفات 🔎
       </h1>
