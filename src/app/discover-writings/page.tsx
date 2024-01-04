@@ -2,6 +2,7 @@ import { Suspense } from "react";
 
 import SearchBar from "@components/SearchBar";
 import Writings from "@components/writings";
+import WritingTileSheet from "@/components/writings/WiritingTileSheet";
 
 export default function DiscoverWritings({
   searchParams,
@@ -22,6 +23,10 @@ export default function DiscoverWritings({
 
       <Suspense key={query} fallback={"جاري التحميل..."}>
         <Writings query={query} />
+      </Suspense>
+
+      <Suspense>
+        <WritingTileSheet />
       </Suspense>
     </>
   );
