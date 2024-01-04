@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 
+import Header from "@components/header";
 import SearchBar from "@components/SearchBar";
 import Writings from "@components/writings";
 import WritingTileSheet from "@/components/writings/parts/WiritingTileSheet";
@@ -15,6 +16,7 @@ export default function DiscoverWritings({
 
   return (
     <>
+      <Header />
       <h1 className="p-14 text-center text-4xl font-bold text-primary">
         اكتشف المؤلّفات 🔎
       </h1>
