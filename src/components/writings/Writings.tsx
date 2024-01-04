@@ -28,14 +28,21 @@ const Writings = ({ query }: { query: string }) => {
 
   const filteredThings = searchThings(query);
 
-  return (
-    filteredThings.length > 0 && (
-      <div className="m-auto grid max-w-4xl auto-rows-max grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {filteredThings.map((thing) => (
-          <WritingTile key={thing.id} thing={thing} />
-        ))}
+  if (filteredThings.length === 0) {
+    return (
+      <div className="flex h-full flex-col items-center justify-center gap-4 text-center">
+        <p className="text-9xl">😅</p>
+        <h1 className="text-4xl">لا يوجد نتائج</h1>
       </div>
-    )
+    );
+  }
+
+  return (
+    <div className="m-auto grid max-w-4xl auto-rows-max grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {filteredThings.map((thing) => (
+        <WritingTile key={thing.id} thing={thing} />
+      ))}
+    </div>
   );
 };
 
