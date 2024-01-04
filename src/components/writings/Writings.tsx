@@ -30,13 +30,11 @@ const Writings = ({ query }: { query: string }) => {
 
   return (
     filteredThings.length > 0 && (
-      <ul className="m-auto grid max-w-4xl grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="m-auto grid max-w-4xl auto-rows-max grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {filteredThings.map((thing) => (
-          <li key={thing.id}>
-            <WritingTile thing={thing} />
-          </li>
+          <WritingTile key={thing.id} thing={thing} />
         ))}
-      </ul>
+      </div>
     )
   );
 };
