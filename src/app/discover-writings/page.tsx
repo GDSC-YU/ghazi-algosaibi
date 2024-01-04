@@ -2,7 +2,7 @@ import { Suspense } from "react";
 
 import SearchBar from "@components/SearchBar";
 import Writings from "@components/writings";
-import WritingTileSheet from "@/components/writings/WiritingTileSheet";
+import WritingTileSheet from "@/components/writings/parts/WiritingTileSheet";
 
 export default function DiscoverWritings({
   searchParams,
