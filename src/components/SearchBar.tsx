@@ -30,7 +30,7 @@ export default function SearchBar({ placeholder }: { placeholder: string }) {
         />
         <input
           type="text"
-          className="bg-secondary text-outline h-12 w-96 rounded-2xl pl-12 pr-5 text-2xl"
+          className="h-12 w-96 rounded-2xl bg-secondary pl-12 pr-5 text-2xl text-outline"
           placeholder={placeholder}
           onChange={(e) => {
             handleSearch(e.target.value);

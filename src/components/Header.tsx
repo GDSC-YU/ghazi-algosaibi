@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-primary flex h-24 flex-row items-center justify-between gap-4 px-10">
+    <header className="flex h-24 flex-row items-center justify-between gap-4 bg-primary px-10">
       <Link href={"/"}>
         <Image src={logo} alt="شعار غازي عبدالرحمن القصيبي" />
       </Link>
