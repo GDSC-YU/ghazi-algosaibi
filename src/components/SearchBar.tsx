@@ -32,7 +32,7 @@ const SearchBar = ({ placeholder }: { placeholder: string }) => {
         />
         <input
           type="text"
-          className="h-12 w-full rounded-2xl bg-secondary pl-12 pr-5 text-2xl text-outline md:w-96"
+          className="h-12 w-full rounded-2xl bg-secondary pl-12 pr-5 text-2xl text-outline outline-primary md:w-96"
           placeholder={placeholder}
           onChange={(e) => {
             handleSearch(e.target.value);
