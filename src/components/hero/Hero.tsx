@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 import { Parallax, ParallaxLayer, IParallax } from "@react-spring/parallax";
 
-import { Layer1, Layer2, Layer3, Layer4 } from "./layers";
+import { Layer1, Layer2, Layer3, Layer4, Layer5 } from "./layers";
 
 import { makeParallaxUrl } from "@lib/utils";
 
@@ -14,14 +14,14 @@ const Hero = () => {
   return (
     <Parallax
       ref={parallax}
-      pages={4}
-      className="bg-black text-white scrollbar-none"
+      pages={5}
+      className="scrollbar-none bg-black text-white"
     >
       {/* background stars */}
       <ParallaxLayer
         offset={0}
         speed={0}
-        factor={4}
+        factor={5}
         style={{
           backgroundImage: makeParallaxUrl("stars.svg", true),
           backgroundSize: "cover",
@@ -35,6 +35,8 @@ const Hero = () => {
       <Layer3 parallax={parallax} />
       {/* مناصبه */}
       <Layer4 parallax={parallax} />
+      {/* صنع بـ */}
+      <Layer5 parallax={parallax} />
     </Parallax>
   );
 };
