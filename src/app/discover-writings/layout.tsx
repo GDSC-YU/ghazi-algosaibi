@@ -1,15 +1,11 @@
 import type { Metadata } from "next";
 
-import localFont from "next/font/local";
+import "../globals.css";
 
-import "./globals.css";
-
-export const sfArabicRounded = localFont({
-  src: "fonts/SF-Arabic-Rounded.ttf",
-});
+import { sfArabicRounded } from "../layout";
 
 export const metadata: Metadata = {
-  title: "غازي القصيبي",
+  title: "غازي القصيبي | اكتشف المؤلّفات",
   description:
     "غازي القصيبي: رجل دولة، دبلوماسي، تكنوقراطي، أكاديمي، شاعر، وروائي، جزء لا يتجزأ من نسيج المجتمع السعودي المعاصر.",
 };
@@ -20,7 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ar" dir="rtl">
+    <html
+      lang="ar"
+      dir="rtl"
+      className="scrollbar-track-primary scrollbar-thin scrollbar-thumb-outline"
+    >
       <body className={sfArabicRounded.className}>{children}</body>
     </html>
   );
