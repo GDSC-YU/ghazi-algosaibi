@@ -4,5 +4,5 @@
 
 /* fixes a bug with the font on mobile phones */
 body {
-  @apply tracking-tight;
+  @apply tracking-tighter;
 }
