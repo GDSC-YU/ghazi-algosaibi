@@ -13,6 +13,10 @@ const Hero = () => {
     return `${wrap ? "url(" : ""}/parallax/${imageName}${wrap ? ")" : ""}`;
   };
 
+  const makeGhaziUrl = (imageName: string, wrap: boolean) => {
+    return `${wrap ? "url(" : ""}/ghazi/${imageName}${wrap ? ")" : ""}`;
+  };
+
   return (
     <Parallax
       ref={parallax}
@@ -45,7 +49,7 @@ const Hero = () => {
         style={{ pointerEvents: "none" }}
       >
         <img
-          src={makeParallaxUrl("satellite4.svg", false)}
+          src={makeGhaziUrl("ghazi.png", false)}
           style={{ width: "15%", marginLeft: "70%" }}
         />
       </ParallaxLayer>
@@ -142,7 +146,7 @@ const Hero = () => {
         className="flex flex-col items-center justify-center gap-y-7"
       >
         <img
-          src="/ghazi/ghazi.png"
+          src={makeGhaziUrl("ghazi.png", false)}
           alt="Ghazi Algosaibi Image"
           className="w-52 md:w-72"
         />
