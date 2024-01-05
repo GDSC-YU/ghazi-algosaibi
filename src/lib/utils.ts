@@ -1,3 +1,5 @@
+import localFont from "next/font/local";
+
 export function normalizeArabic(text: string) {
   // Remove Arabic diacritics (harakat)
   const removeDiacritics = text.replace(/[\u064B-\u0652]/g, "");
@@ -31,3 +33,7 @@ export function normalizeArabic(text: string) {
 
   return normalizeWhiteSpaces;
 }
+
+export const sfArabicRounded = localFont({
+  src: "../app/fonts/SF-Arabic-Rounded.ttf",
+});
