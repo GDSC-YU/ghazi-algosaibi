@@ -15,7 +15,7 @@ const WritingTile = ({ thing }: { thing: Thing }) => {
       onClick={handleWritingTileClicked}
     >
       <img
-        className="mb-4 rounded-2xl"
+        className="mb-4 h-60 rounded-2xl"
         src={thing.imageUrl}
         alt={thing.title}
       />

@@ -13,7 +13,7 @@ const things: Thing[] = [
     year: "1976",
     publisher: "دار العلوم، الرياض",
     notes: "",
-    imageUrl: "/writings/العصفورية.png",
+    imageUrl: "/writings/أبيات غزل.jpg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const things: Thing[] = [
     year: "2000",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "",
-    imageUrl: "/writings/العصفورية.png",
+    imageUrl: "/writings/استراحة الخميس.jpeg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const things: Thing[] = [
     year: "2001",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/writings/العصفورية.png",
+    imageUrl: "/writings/الأشج- قصيدة.jpeg",
   },
   {
     id: 5,
