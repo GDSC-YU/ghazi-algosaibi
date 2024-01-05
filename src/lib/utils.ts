@@ -37,3 +37,11 @@ export function normalizeArabic(text: string) {
 export const sfArabicRounded = localFont({
   src: "../app/fonts/SF-Arabic-Rounded.ttf",
 });
+
+export const makeParallaxUrl = (imageName: string, wrap: boolean) => {
+  return `${wrap ? "url(" : ""}/parallax/${imageName}${wrap ? ")" : ""}`;
+};
+
+export const makeGhaziUrl = (imageName: string, wrap: boolean) => {
+  return `${wrap ? "url(" : ""}/ghazi/${imageName}${wrap ? ")" : ""}`;
+};
