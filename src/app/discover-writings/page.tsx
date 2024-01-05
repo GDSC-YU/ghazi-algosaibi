@@ -1,12 +1,9 @@
 import { Suspense } from "react";
 
-import Link from "next/link";
-
+import Header from "@components/header";
 import SearchBar from "@components/SearchBar";
 import Writings from "@components/writings";
-import WritingTileSheet from "@components/writings/parts/WiritingTileSheet";
-
-import BackIcon from "~icons/line-md/arrow-left-circle";
+import WritingTileSheet from "@/components/writings/parts/WiritingTileSheet";
 
 export default function DiscoverWritings({
   searchParams,
@@ -19,11 +16,9 @@ export default function DiscoverWritings({
 
   return (
     <>
-      <Link href="/" className="flex justify-end p-5">
-        <BackIcon className="h-12 w-12 transition-transform duration-300 ease-in-out hover:scale-90" />
-      </Link>
-      <h1 className="p-14 text-center text-4xl font-bold">
-        اكتشف المؤلّفات 📚
+      <Header />
+      <h1 className="p-14 text-center text-4xl font-bold text-primary">
+        اكتشف المؤلّفات 🔎
       </h1>
 
       <SearchBar placeholder="ابحث عن ..." />
