@@ -1,6 +1,8 @@
-import { IParallax, ParallaxLayer } from "@react-spring/parallax";
 import { MutableRefObject } from "react";
-import Link from "next/link";
+
+import { IParallax, ParallaxLayer } from "@react-spring/parallax";
+
+import styles from "../styles/Layer5.module.css";
 
 const Layer5 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
   return (
@@ -11,52 +13,46 @@ const Layer5 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         onClick={() => parallax.current.scrollTo(0)}
         className="flex items-center justify-center"
       >
-        <div className="text-center text-4xl font-bold text-white">
+        <div className="flex flex-col gap-y-16 text-center text-3xl font-bold md:text-4xl lg:text-5xl">
           <p>
             صنع من قبل طلاب{" "}
             <a
-              className="text-orange-400 transition-transform duration-200 ease-in-out hover:scale-105"
+              className={`${styles.animation} text-orange-400 md:inline-block`}
               href="https:/yu.edu.sa"
               target="_blank"
             >
+              <br className="md:hidden" />
               جامعة اليمامة
             </a>{" "}
             🎓:
           </p>
 
-          <br />
-
-          <div className="flex flex-row items-center justify-center gap-6 text-2xl">
+          <div className="flex flex-col items-center justify-center gap-10 text-xl md:flex-row md:text-2xl lg:text-3xl">
             <a
-              className="transition-transform duration-200 ease-in-out hover:scale-105"
+              className={styles.animation}
               href={`https://khalil.im/`}
               target="_blank"
             >
-              <div className="flex flex-col items-center gap-4">
+              <div className={styles.imageContainer}>
                 <img
-                  className="h-20 w-20 rounded-full"
-                  src="/khalil.jpg"
+                  className={styles.image}
+                  src="https://khalil.im/me.jpg"
                   alt="خليل ملحم"
                 />
-
                 <p>خليل ملحم</p>
               </div>
             </a>
-
-            <span className="text-6xl">|</span>
-
             <a
-              className="transition-transform duration-200 ease-in-out hover:scale-105"
-              href={`https://yazeed.alkhalaf.dev`}
+              className={styles.animation}
+              href={`https://yazeed.alkhalaf.dev/`}
               target="_blank"
             >
-              <div className="flex flex-col items-center gap-4">
+              <div className={styles.imageContainer}>
                 <img
-                  className="h-20 w-20 rounded-full"
+                  className={styles.image}
                   src="https://yazeed.alkhalaf.dev/images/me-grey.jpg"
                   alt="يزيد الخلف"
                 />
-
                 <p>يزيد الخلف</p>
               </div>
             </a>

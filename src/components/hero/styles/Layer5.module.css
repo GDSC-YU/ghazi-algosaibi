@@ -1,0 +1,11 @@
+.animation {
+  @apply transition-transform duration-200 ease-in-out hover:scale-105;
+}
+
+.imageContainer {
+  @apply flex flex-col items-center gap-4;
+}
+
+.image {
+  @apply h-20 w-20 rounded-full md:h-24 md:w-24;
+}
