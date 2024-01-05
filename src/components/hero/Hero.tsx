@@ -49,67 +49,8 @@ const Hero = () => {
         style={{ pointerEvents: "none" }}
       >
         <img
-          src={makeGhaziUrl("ghazi.png", false)}
-          style={{ width: "15%", marginLeft: "70%" }}
-        />
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "20%", marginLeft: "55%" }}
-        />
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "10%", marginLeft: "15%" }}
-        />
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={1.75} speed={0.5} style={{ opacity: 0.1 }}>
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "20%", marginLeft: "70%" }}
-        />
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "20%", marginLeft: "40%" }}
-        />
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.2 }}>
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "10%", marginLeft: "10%" }}
-        />
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "20%", marginLeft: "75%" }}
-        />
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={1.6} speed={-0.1} style={{ opacity: 0.4 }}>
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "20%", marginLeft: "60%" }}
-        />
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "25%", marginLeft: "30%" }}
-        />
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "10%", marginLeft: "80%" }}
-        />
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={2.6} speed={0.4} style={{ opacity: 0.6 }}>
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "20%", marginLeft: "5%" }}
-        />
-        <img
-          src={makeParallaxUrl("cloud.svg", false)}
-          style={{ display: "block", width: "15%", marginLeft: "75%" }}
+          src={makeGhaziUrl("ghaz-old-bw-cut.jpg", false)}
+          className="m-5 w-1/6 rounded-xl border-4 border-white"
         />
       </ParallaxLayer>
 
