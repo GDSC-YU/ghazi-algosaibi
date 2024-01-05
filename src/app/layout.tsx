@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
 
-import localFont from "next/font/local";
-
 import "./globals.css";
-
-export const sfArabicRounded = localFont({
-  src: "fonts/SF-Arabic-Rounded.ttf",
-});
+import { sfArabicRounded } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "غازي القصيبي",
