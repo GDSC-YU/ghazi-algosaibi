@@ -1,21 +1,17 @@
 "use client";
 
 import { useRef } from "react";
+
 import Link from "next/link";
+
 import { Parallax, ParallaxLayer, IParallax } from "@react-spring/parallax";
+
+import { makeParallaxUrl, makeGhaziUrl } from "@lib/utils";
 
 import ButtonStyles from "./styles/Button.module.css";
 
 const Hero = () => {
   const parallax = useRef<IParallax>(null!);
-
-  const makeParallaxUrl = (imageName: string, wrap: boolean) => {
-    return `${wrap ? "url(" : ""}/parallax/${imageName}${wrap ? ")" : ""}`;
-  };
-
-  const makeGhaziUrl = (imageName: string, wrap: boolean) => {
-    return `${wrap ? "url(" : ""}/ghazi/${imageName}${wrap ? ")" : ""}`;
-  };
 
   return (
     <Parallax
