@@ -30,7 +30,7 @@ const Writings = ({ query }: { query: string }) => {
 
   if (filteredThings.length === 0) {
     return (
-      <div className="flex h-full flex-col items-center justify-center gap-4 text-center">
+      <div className="flex h-full flex-col items-center justify-center gap-5 text-center">
         <p className="text-9xl">😅</p>
         <h1 className="text-4xl">لا يوجد نتائج</h1>
       </div>

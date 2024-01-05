@@ -6,13 +6,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        primary: "#1E3050",
-        secondary: "#F4F5FB",
-        outline: "#6E6D7A",
-      },
-    },
+    extend: {},
   },
   plugins: [require("tailwind-scrollbar")],
 };
