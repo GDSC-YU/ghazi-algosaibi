@@ -1,7 +1,5 @@
 import Image from "next/image";
 import logo from "@/app/images/logo.png";
-import HeaderButton from "./parts/HeaderButton";
-import Link from "next/link";
 
 const Header = () => {
   return (
@@ -12,14 +10,14 @@ const Header = () => {
         objectFit: "cover",
       }}
     >
-      <Link href={"/"}>
+      <a href="/">
         <Image
           src={logo}
           width={337}
           height={70}
           alt="شعار غازي عبدالرحمن القصيبي"
         />
-      </Link>
+      </a>
     </header>
   );
 };
