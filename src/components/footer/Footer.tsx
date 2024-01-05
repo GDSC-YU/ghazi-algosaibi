@@ -8,7 +8,7 @@ const Footer = () => {
       }}
     >
       <p className="text-base font-bold text-white">
-        صنع باستخدام الكثير من القهوة ☕️
+        صنع باستخدام الكثير من القهوة من قبل طلّاب جامعة اليمامة ☕️
       </p>
     </footer>
   );
