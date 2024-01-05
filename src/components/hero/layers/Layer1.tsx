@@ -1,14 +1,24 @@
 import { MutableRefObject } from "react";
-
 import Link from "next/link";
-
 import { ParallaxLayer, IParallax } from "@react-spring/parallax";
+import { animated, useSpring } from "@react-spring/web";
 
 import { makeGhaziUrl } from "@lib/utils";
 
 import styles from "../styles/Layer1.module.css";
 
 const Layer1 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
+  const heroAnim = useSpring({
+    from: { transform: "translateY(0%)" },
+    to: [
+      { transform: "translateY(-5%)" },
+      { transform: "translateY(5%)" },
+      { transform: "translateY(0%)" },
+    ],
+    loop: true,
+    config: { duration: 1500 },
+  });
+
   return (
     <>
       {/* main text */}
@@ -19,11 +29,13 @@ const Layer1 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         className="flex flex-col items-center justify-center gap-y-7"
       >
         {/* middle image */}
-        <img
-          src={makeGhaziUrl("hero.png", false)}
-          alt="Ghazi Algosaibi smiling at the camera"
-          className="w-52 md:w-72"
-        />
+        <animated.div style={heroAnim}>
+          <img
+            src={makeGhaziUrl("hero.png", false)}
+            alt="Ghazi Algosaibi smiling at the camera"
+            className="w-52 md:w-72"
+          />
+        </animated.div>
         {/* middle image */}
 
         {/* middle text */}

@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@react-spring/web':
+    specifier: ^9.7.3
+    version: 9.7.3(react-dom@18.2.0)(react@18.2.0)
   framer-motion:
     specifier: ^10.17.9
     version: 10.17.9(react-dom@18.2.0)(react@18.2.0)
@@ -690,7 +693,6 @@ packages:
       '@react-spring/shared': 9.7.3(react@18.2.0)
       '@react-spring/types': 9.7.3
       react: 18.2.0
-    dev: true
 
   /@react-spring/core@9.7.3(react@18.2.0):
     resolution: {integrity: sha512-IqFdPVf3ZOC1Cx7+M0cXf4odNLxDC+n7IN3MDcVCTIOSBfqEcBebSv+vlY5AhM0zw05PDbjKrNmBpzv/AqpjnQ==}
@@ -701,7 +703,6 @@ packages:
       '@react-spring/shared': 9.7.3(react@18.2.0)
       '@react-spring/types': 9.7.3
       react: 18.2.0
-    dev: true
 
   /@react-spring/parallax@9.7.3(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Qm7l0aw2rDMXMg9H4KqgbSuDd/y3YErQezoc6o/NvQj53Gt4lUKC2rHmlD9R+ae8rqiagYaS1q8iPCN3P3wuAg==}
@@ -722,11 +723,9 @@ packages:
     dependencies:
       '@react-spring/types': 9.7.3
       react: 18.2.0
-    dev: true
 
   /@react-spring/types@9.7.3:
     resolution: {integrity: sha512-Kpx/fQ/ZFX31OtlqVEFfgaD1ACzul4NksrvIgYfIFq9JpDHFwQkMVZ10tbo0FU/grje4rcL4EIrjekl3kYwgWw==}
-    dev: true
 
   /@react-spring/web@9.7.3(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-BXt6BpS9aJL/QdVqEIX9YoUy8CE6TJrU0mNCqSoxdXlIeNcEBWOfIyE6B14ENNsyQKS3wOWkiJfco0tCr/9tUg==}
@@ -740,7 +739,6 @@ packages:
       '@react-spring/types': 9.7.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-    dev: true
 
   /@react-stately/utils@3.9.0(react@18.2.0):
     resolution: {integrity: sha512-yPKFY1F88HxuZ15BG2qwAYxtpE4HnIU0Ofi4CuBE0xC6I8mwo4OQjDzi+DZjxQngM9D6AeTTD6F1V8gkozA0Gw==}
