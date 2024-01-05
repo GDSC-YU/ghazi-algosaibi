@@ -2,10 +2,6 @@
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-import Image from "next/image";
-
-import magnifyingGlassSolid from "@images/magnifying-glass-solid.svg";
-
 const SearchBar = ({ placeholder }: { placeholder: string }) => {
   const searchParams = useSearchParams();
   const pathname = usePathname();
@@ -25,11 +21,9 @@ const SearchBar = ({ placeholder }: { placeholder: string }) => {
   return (
     <div className="mb-12 flex flex-row items-center justify-center px-4">
       <div className="relative">
-        <Image
-          src={magnifyingGlassSolid}
-          alt="أيقونة البحث"
-          className="absolute left-3 top-1/2 -translate-y-1/2 transform"
-        />
+        <span className="absolute left-3 top-1/2 -translate-y-1/2 transform text-2xl">
+          🔎
+        </span>
         <input
           type="text"
           className="h-12 w-full rounded-2xl bg-secondary pl-12 pr-5 text-2xl text-outline outline-none transition-all duration-300 ease-in-out focus:outline-primary md:w-96"
