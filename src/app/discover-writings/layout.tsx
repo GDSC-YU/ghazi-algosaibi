@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 
 import "../globals.css";
-
-import { sfArabicRounded } from "@lib/utils";
+import { sfArabicRounded } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "غازي القصيبي | اكتشف المؤلّفات",
@@ -19,7 +18,7 @@ export default function RootLayout({
     <html
       lang="ar"
       dir="rtl"
-      className="bg-black text-white scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white"
+      className="scrollbar-track-primary scrollbar-thin scrollbar-thumb-outline"
     >
       <body className={sfArabicRounded.className}>{children}</body>
     </html>
