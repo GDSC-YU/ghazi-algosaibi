@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { ParallaxLayer, IParallax } from "@react-spring/parallax";
 
-import { makeParallaxUrl, makeGhaziUrl } from "@lib/utils";
+import { makeGhaziUrl } from "@lib/utils";
 
 import styles from "../styles/Layer1.module.css";
 
@@ -27,7 +27,9 @@ const Layer1 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         {/* middle image */}
 
         {/* middle text */}
-        <h1 className="text-3xl font-bold md:text-4xl">من هو غازي؟</h1>
+        <h1 className="text-center text-lg font-bold md:text-2xl">
+          «وتشاء أنت من البشائر قطرةً ويشاء ربُك أن يُغيثك بالمطر»
+        </h1>
         {/* middle text */}
 
         {/* action buttons */}
@@ -36,7 +38,7 @@ const Layer1 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
             onClick={() => parallax.current.scrollTo(1)}
             className={styles.heroButton}
           >
-            تصفح القصّة
+            من هو غازي؟
           </button>
           <Link
             href="/discover-writings"
@@ -45,7 +47,7 @@ const Layer1 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
             }}
             className={styles.heroButton}
           >
-            اكتشف المؤلّفات
+            تصفح مؤلّفاته
           </Link>
         </div>
         {/* action buttons */}
