@@ -18,7 +18,10 @@
     "zustand": "^4.4.7"
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.165",
     "@react-spring/parallax": "^9.7.3",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
     "@types/node": "^20.10.6",
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
@@ -28,6 +31,7 @@
     "prettier-plugin-tailwindcss": "^0.5.10",
     "tailwind-scrollbar": "^3.0.5",
     "tailwindcss": "^3.4.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "unplugin-icons": "^0.18.1"
   }
 }
