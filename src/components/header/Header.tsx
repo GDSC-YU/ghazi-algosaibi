@@ -5,7 +5,13 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex h-24 flex-row items-center justify-between gap-4 bg-primary px-10">
+    <header
+      className="flex h-24 flex-row items-center justify-between gap-4 bg-primary px-10"
+      style={{
+        backgroundImage: `url("/parallax/stars.svg")`,
+        objectFit: "cover",
+      }}
+    >
       <Link href={"/"}>
         <Image
           src={logo}
