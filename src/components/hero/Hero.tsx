@@ -14,7 +14,11 @@ const Hero = () => {
   };
 
   return (
-    <Parallax ref={parallax} pages={3} className="bg-primary text-white">
+    <Parallax
+      ref={parallax}
+      pages={3}
+      className="scrollbar-none bg-primary text-white"
+    >
       <ParallaxLayer
         offset={1}
         speed={1}
@@ -157,7 +161,7 @@ const Hero = () => {
             }}
             className={ButtonStyles.heroButton}
           >
-            استكشف المؤلّفات
+            اكتشف المؤلّفات
           </Link>
         </div>
       </ParallaxLayer>
