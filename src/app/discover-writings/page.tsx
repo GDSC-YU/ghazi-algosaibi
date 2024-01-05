@@ -19,7 +19,7 @@ export default function DiscoverWritings({
     <>
       <Header />
       <h1 className="p-14 text-center text-4xl font-bold text-primary">
-        اكتشف المؤلّفات 🔎
+        اكتشف المؤلّفات 📚
       </h1>
 
       <SearchBar placeholder="ابحث عن ..." />
