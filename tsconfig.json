@@ -18,7 +18,6 @@
         "name": "next"
       }
     ],
-    "types": ["unplugin-icons/types/react"],
     "paths": {
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
