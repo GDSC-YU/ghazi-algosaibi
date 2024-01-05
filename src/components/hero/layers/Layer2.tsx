@@ -14,7 +14,7 @@ const Layer2 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         <img
           src={makeGhaziUrl("young.jpg", false)}
           alt="Young Ghazi Algosaibi"
-          className="mr-10 w-24 rounded-xl border-4 border-white md:w-36 lg:w-48"
+          className="mx-10 w-24 rounded-xl border-4 border-white md:w-36 lg:w-48"
         />
       </ParallaxLayer>
       {/* moving image */}
