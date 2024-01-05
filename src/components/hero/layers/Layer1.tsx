@@ -39,7 +39,7 @@ const Layer1 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         {/* middle image */}
 
         {/* middle text */}
-        <h1 className="text-center text-lg font-bold md:text-2xl">
+        <h1 className="p-12 text-center text-lg font-bold md:text-2xl">
           «وتشاء أنت من البشائر قطرةً ويشاء ربُك أن يُغيثك بالمطر»
         </h1>
         {/* middle text */}
