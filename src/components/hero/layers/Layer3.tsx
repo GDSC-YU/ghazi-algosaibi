@@ -9,11 +9,25 @@ import { makeGhaziUrl } from "@lib/utils";
 const Layer3 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
   return (
     <>
+      {/* moving image */}
+      <ParallaxLayer
+        offset={2.3}
+        speed={-0.3}
+        className="pointer-events-none flex items-start justify-end"
+      >
+        <img
+          src={makeGhaziUrl("mortarboard.png", false)}
+          alt="Ghazi Algosaibi wearing his graduation hat"
+          className="ml-10 w-24 rounded-xl border-4 border-white md:w-36 lg:w-48"
+        />
+      </ParallaxLayer>
+      {/* moving image */}
+
       {/* main text */}
       <ParallaxLayer
         offset={2}
         speed={0.1}
-        onClick={() => parallax.current.scrollTo(2)}
+        onClick={() => parallax.current.scrollTo(3)}
         className="flex items-center justify-center"
       >
         <TextBox>
@@ -39,19 +53,6 @@ const Layer3 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         </TextBox>
       </ParallaxLayer>
       {/* main text */}
-
-      {/* moving image */}
-      <ParallaxLayer
-        offset={2.3}
-        speed={-0.3}
-        className="pointer-events-none flex items-start justify-end"
-      >
-        <img
-          src={makeGhaziUrl("ghazi-mortarboard.png", false)}
-          className="ml-10 w-24 rounded-xl border-4 border-white md:w-36 lg:w-48"
-        />
-      </ParallaxLayer>
-      {/* moving image */}
     </>
   );
 };
