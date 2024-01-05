@@ -9,25 +9,25 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "framer-motion": "^10.17.6",
-    "next": "14.0.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "framer-motion": "^10.17.9",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-modal-sheet": "^2.2.0",
     "sharp": "^0.33.1",
     "zustand": "^4.4.7"
   },
   "devDependencies": {
     "@react-spring/parallax": "^9.7.3",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "prettier": "^3.1.0",
-    "prettier-plugin-tailwindcss": "^0.5.7",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.10",
     "tailwind-scrollbar": "^3.0.5",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3"
   }
 }
