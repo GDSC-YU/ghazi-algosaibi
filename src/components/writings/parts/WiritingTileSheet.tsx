@@ -1,11 +1,12 @@
 "use client";
 
 import Sheet from "react-modal-sheet";
-import Image from "next/image";
 
-import { useWritingTileSheet } from "@/lib/store/WritingTileSheet";
 import WritingTileSheetContent from "./WritingTileSheetContent";
-import xSolid from "@images/x-solid.svg";
+
+import { useWritingTileSheet } from "@lib/store/WritingTileSheet";
+
+import CircleMark from "~icons/fa6-solid/circle-xmark";
 
 const WritingTileSheet = () => {
   const { thing, setThing } = useWritingTileSheet();
@@ -23,11 +24,11 @@ const WritingTileSheet = () => {
       <Sheet.Backdrop>
         <Sheet.Container>
           <Sheet.Header className="m-4">
-            <div
-              className="flex w-12 flex-col items-center rounded-full bg-secondary p-4 hover:cursor-pointer"
-              onClick={handleCloseIconClicked}
-            >
-              <Image src={xSolid} alt="أيقونة الإغلاق" />
+            <div className="flex w-fit justify-start rounded-full bg-secondary p-3">
+              <CircleMark
+                className="h-10 w-10 transition-transform duration-200 hover:scale-110 hover:cursor-pointer"
+                onClick={handleCloseIconClicked}
+              />
             </div>
           </Sheet.Header>
 
