@@ -1,6 +1,6 @@
 const WritingTileSheetContent = ({ thing }: { thing?: Thing }) => {
   return (
-    <div className="mb-8 flex flex-col items-center justify-center gap-4">
+    <div className="mb-8 flex flex-col items-center justify-center gap-4 text-black">
       <div className="rounded-2xl bg-secondary p-6">
         <img className="rounded-2xl" src={thing?.imageUrl} alt={thing?.title} />
       </div>
