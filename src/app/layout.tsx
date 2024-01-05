@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "غازي القصيبي",
   description:
     "غازي القصيبي: رجل دولة، دبلوماسي، تكنوقراطي، أكاديمي، شاعر، وروائي، جزء لا يتجزأ من نسيج المجتمع السعودي المعاصر.",
+  metadataBase: new URL("https://ghazi-algosaibi.netlify.app/"),
 };
 
 export default function RootLayout({
