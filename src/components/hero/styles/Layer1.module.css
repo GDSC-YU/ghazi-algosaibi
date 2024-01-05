@@ -1,0 +1,3 @@
+.heroButton {
+  @apply rounded-2xl bg-white px-4 py-2 text-black transition-all hover:scale-105;
+}
