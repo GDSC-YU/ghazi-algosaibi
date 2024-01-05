@@ -2,63 +2,49 @@ import { MutableRefObject } from "react";
 
 import { IParallax, ParallaxLayer } from "@react-spring/parallax";
 
-import styles from "../styles/Layer5.module.css";
+import TextBox from "../parts/TextBox";
+
+import { makeGhaziUrl } from "@lib/utils";
+
+import style from "../styles/Layers.module.css";
 
 const Layer5 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
   return (
     <>
+      {/* moving image */}
+      <ParallaxLayer
+        offset={4.3}
+        speed={-0.3}
+        className="pointer-events-none flex items-start justify-end"
+      >
+        <img
+          src={makeGhaziUrl("sitting.png", false)}
+          alt="Ghazi Algosaibi on the far left at a panel discussion with two other participants"
+          className={style.image}
+        />
+      </ParallaxLayer>
+
+      {/* moving image */}
+
+      {/* main text */}
       <ParallaxLayer
         offset={4}
         speed={0.1}
-        onClick={() => parallax.current.scrollTo(0)}
+        onClick={() => parallax.current.scrollTo(5)}
         className="flex items-center justify-center"
       >
-        <div className="flex flex-col gap-y-16 text-center text-3xl font-bold md:text-4xl lg:text-5xl">
-          <p>
-            صنع من قبل طلاب{" "}
-            <a
-              className={`${styles.animation} text-orange-400 md:inline-block`}
-              href="https:/yu.edu.sa"
-              target="_blank"
-            >
-              <br className="md:hidden" />
-              جامعة اليمامة
-            </a>{" "}
-            🎓:
-          </p>
-
-          <div className="flex flex-col items-center justify-center gap-10 text-xl md:flex-row md:text-2xl lg:text-3xl">
-            <a
-              className={styles.animation}
-              href={`https://khalil.im/`}
-              target="_blank"
-            >
-              <div className={styles.imageContainer}>
-                <img
-                  className={styles.image}
-                  src="https://khalil.im/me.jpg"
-                  alt="خليل ملحم"
-                />
-                <p>خليل ملحم</p>
-              </div>
-            </a>
-            <a
-              className={styles.animation}
-              href={`https://yazeed.alkhalaf.dev/`}
-              target="_blank"
-            >
-              <div className={styles.imageContainer}>
-                <img
-                  className={styles.image}
-                  src="https://yazeed.alkhalaf.dev/images/me-grey.jpg"
-                  alt="يزيد الخلف"
-                />
-                <p>يزيد الخلف</p>
-              </div>
-            </a>
-          </div>
-        </div>
+        <TextBox>
+          توفي عن عمر يناهز السبعين عامًا في يوم الأحد ٥ رمضان ١٤٣١ هـ الموافق
+          ١٥ أغسطس ٢٠١٠ الساعة العاشرة صباحًا في مستشفى الملك فيصل التخصصي
+          بالرياض بعد معاناة طويلة مع المرض.
+          <br />
+          <br />
+          هذا الموقع تخليد لذكرى الدكتور غازي الذي شكل علامة فارقة في جبين
+          المجتمع العربي والسعودي المعاصر لما مثله من ظاهرة نادرة تعدت الأدب
+          والشعر والكتابة إلى تقلد المناصب الأكاديمية والوزارية.
+        </TextBox>
       </ParallaxLayer>
+      {/* main text */}
     </>
   );
 };

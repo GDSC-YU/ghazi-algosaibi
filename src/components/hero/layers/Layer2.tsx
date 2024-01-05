@@ -6,6 +6,8 @@ import TextBox from "../parts/TextBox";
 
 import { makeGhaziUrl } from "@lib/utils";
 
+import style from "../styles/Layers.module.css";
+
 const Layer2 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
   return (
     <>
@@ -14,7 +16,7 @@ const Layer2 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         <img
           src={makeGhaziUrl("young.jpg", false)}
           alt="Young Ghazi Algosaibi"
-          className="mx-10 w-24 rounded-xl border-4 border-white blur-sm md:w-36 lg:w-48 lg:blur-none"
+          className={style.image}
         />
       </ParallaxLayer>
       {/* moving image */}
