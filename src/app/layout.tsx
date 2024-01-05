@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import { sfArabicRounded } from "@/lib/utils";
+
+import { sfArabicRounded } from "@lib/utils";
 
 export const metadata: Metadata = {
   title: "غازي القصيبي",
