@@ -23,7 +23,7 @@ const Layer4 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
       <ParallaxLayer
         offset={3}
         speed={0.1}
-        onClick={() => parallax.current.scrollTo(0)}
+        onClick={() => parallax.current.scrollTo(4)}
         className="flex items-center justify-center"
       >
         <TextBox>

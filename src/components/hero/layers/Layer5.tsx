@@ -8,6 +8,7 @@ const Layer5 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
       <ParallaxLayer
         offset={4}
         speed={0.1}
+        onClick={() => parallax.current.scrollTo(0)}
         className="flex items-center justify-center"
       >
         <div className="text-center text-4xl font-bold text-white">
