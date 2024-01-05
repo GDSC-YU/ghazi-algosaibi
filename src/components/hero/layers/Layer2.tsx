@@ -2,19 +2,21 @@ import { MutableRefObject } from "react";
 
 import { ParallaxLayer, IParallax } from "@react-spring/parallax";
 
+import TextBox from "../parts/TextBox";
+
 import { makeGhaziUrl } from "@lib/utils";
 
 const Layer2 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
   return (
     <>
-      {/* right side image */}
+      {/* moving image */}
       <ParallaxLayer offset={1.3} speed={-0.3} className="pointer-events-none">
         <img
-          src={makeGhaziUrl("ghaz-old-bw-cut.jpg", false)}
+          src={makeGhaziUrl("ghazi-young.jpg", false)}
           className="mr-5 w-24 rounded-xl border-4 border-white md:w-36 lg:w-48"
         />
       </ParallaxLayer>
-      {/* right side image */}
+      {/* moving image */}
 
       {/* main text */}
       <ParallaxLayer
@@ -23,7 +25,7 @@ const Layer2 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
         onClick={() => parallax.current.scrollTo(2)}
         className="flex items-center justify-center"
       >
-        <p className="max-w-xs text-center text-sm font-semibold md:max-w-md md:text-base lg:max-w-lg lg:text-lg">
+        <TextBox>
           في بيئة مشبعة بالكآبة كما يصفها القصيبي كانت ولادته التي وافقت اليوم
           الثاني من شهر مارس عام ١٩٤٠، فبعد تسعة أشهر من ولادة غازي توفيت
           والدته، وقبل ولادته بقليل كان جده لوالدته قد توفي أيضًا وإلى جانب هذا
@@ -39,7 +41,7 @@ const Layer2 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
           الذي عايشه غازي الطفل طبقه غازي المدير وغازي الوزير وغازي السفير أيضًا
           فكان على ما يبدو سبباً في نجاحاته المتواصلة في المجال الإداري، إلا
           أننا لا ندري بالضبط، ماذا كان أثر ذلك على غازي الأديب.
-        </p>
+        </TextBox>
       </ParallaxLayer>
       {/* main text */}
     </>

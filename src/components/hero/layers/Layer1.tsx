@@ -20,7 +20,7 @@ const Layer1 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
       >
         {/* middle image */}
         <img
-          src={makeGhaziUrl("ghazi.png", false)}
+          src={makeGhaziUrl("ghazi-hero.png", false)}
           alt="Ghazi Algosaibi Image"
           className="w-52 md:w-72"
         />
