@@ -13,8 +13,8 @@ const Layer4 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
       <ParallaxLayer offset={3.3} speed={-0.3} className="pointer-events-none">
         <img
           src={makeGhaziUrl("working.jpg", false)}
-          alt=""
-          className="mr-5 w-24 rounded-xl border-4 border-white md:w-36 lg:w-48"
+          alt="Ghazi Algosaibi on the far left at a panel discussion with two other participants"
+          className="mx-10 w-24 rounded-xl border-4 border-white md:w-36 lg:w-48"
         />
       </ParallaxLayer>
       {/* moving image */}
