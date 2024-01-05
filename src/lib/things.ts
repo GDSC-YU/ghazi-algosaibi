@@ -5,7 +5,7 @@ const things: Thing[] = [
     year: "2000",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const things: Thing[] = [
     year: "1976",
     publisher: "دار العلوم، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const things: Thing[] = [
     year: "2000",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const things: Thing[] = [
     year: "2001",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const things: Thing[] = [
     year: "1960",
     publisher: "مطبعة دار الكتب، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const things: Thing[] = [
     year: "1997",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const things: Thing[] = [
     year: "1996",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const things: Thing[] = [
     year: "2002",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const things: Thing[] = [
     year: "1977",
     publisher: "المكتب المصري الحديث، القاهرة؛ الإسكندرية",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const things: Thing[] = [
     year: "1962 - 1948",
     publisher: "جامعة لندن",
     notes: "رسالة دكتوراه",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const things: Thing[] = [
     year: "2001",
     publisher: "المجلة العربية، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const things: Thing[] = [
     year: "1982",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const things: Thing[] = [
     year: "1989",
     publisher: "دار تهامة، جدة",
     notes: "ط2",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const things: Thing[] = [
     year: "",
     publisher: "",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const things: Thing[] = [
     year: "2001",
     publisher: "دار الساقي، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const things: Thing[] = [
     year: "1982",
     publisher: "دار تهامة، جدة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const things: Thing[] = [
     year: "1998",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const things: Thing[] = [
     year: "1977",
     publisher: "دار ثقيف، الطائف",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const things: Thing[] = [
     year: "2000",
     publisher: "دار الساقي، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const things: Thing[] = [
     year: "2002",
     publisher: "دار الساقي، بيروت؛ لندن",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ const things: Thing[] = [
     year: "1998",
     publisher: "دار الساقي، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ const things: Thing[] = [
     year: "1996",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ const things: Thing[] = [
     year: "1980",
     publisher: "دار الفيصل الثقافية، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ const things: Thing[] = [
     year: "1994",
     publisher: "رياض الريس، لندن",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 25,
@@ -197,7 +197,7 @@ const things: Thing[] = [
     year: "1997",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 26,
@@ -205,7 +205,7 @@ const things: Thing[] = [
     year: "1996",
     publisher: "دار الساقي، لندن؛ بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 27,
@@ -213,7 +213,7 @@ const things: Thing[] = [
     year: "1991",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 28,
@@ -221,7 +221,7 @@ const things: Thing[] = [
     year: "2001",
     publisher: "دار الزمان، لندن",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 29,
@@ -229,7 +229,7 @@ const things: Thing[] = [
     year: "1987",
     publisher: "دار الوطن، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 30,
@@ -237,7 +237,7 @@ const things: Thing[] = [
     year: "1985",
     publisher: "دار الصقر، المنامة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 31,
@@ -245,7 +245,7 @@ const things: Thing[] = [
     year: "1990",
     publisher: "دار الصافي، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 32,
@@ -253,7 +253,7 @@ const things: Thing[] = [
     year: "2002",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 33,
@@ -261,7 +261,7 @@ const things: Thing[] = [
     year: "1988-1991",
     publisher: "رياض الريس، لندن",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 34,
@@ -269,7 +269,7 @@ const things: Thing[] = [
     year: "1969",
     publisher: "مطابع دار الكتب",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 35,
@@ -277,7 +277,7 @@ const things: Thing[] = [
     year: "1983",
     publisher: "دار تهامة، جدة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 36,
@@ -285,7 +285,7 @@ const things: Thing[] = [
     year: "1997",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 37,
@@ -293,7 +293,7 @@ const things: Thing[] = [
     year: "1982",
     publisher: "دار ثقيف، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 38,
@@ -301,7 +301,7 @@ const things: Thing[] = [
     year: "1990",
     publisher: "دار الفيصل الثقافية، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 39,
@@ -309,7 +309,7 @@ const things: Thing[] = [
     year: "1965",
     publisher: "مطبعة دار الكتب",
     notes: "ط2",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 40,
@@ -317,7 +317,7 @@ const things: Thing[] = [
     year: "1998",
     publisher: "مؤسسة الأيام للصحافة والنشر والتوزيع، المنامة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 41,
@@ -325,7 +325,7 @@ const things: Thing[] = [
     year: "",
     publisher: "مكتبة الكشكول، لندن",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 42,
@@ -333,7 +333,7 @@ const things: Thing[] = [
     year: "2002",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 43,
@@ -341,7 +341,7 @@ const things: Thing[] = [
     year: "2000",
     publisher: "دار الساقي، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 44,
@@ -349,7 +349,7 @@ const things: Thing[] = [
     year: "2002",
     publisher: "دار تهامة، جدة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 45,
@@ -357,7 +357,7 @@ const things: Thing[] = [
     year: "1986",
     publisher: "دار تهامة، جدة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 46,
@@ -365,7 +365,7 @@ const things: Thing[] = [
     year: "1995",
     publisher: "دار تهامة، جدة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 47,
@@ -373,7 +373,7 @@ const things: Thing[] = [
     year: "1987",
     publisher: "دار المسيرة، المنامة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 48,
@@ -381,7 +381,7 @@ const things: Thing[] = [
     year: "1990",
     publisher: "دار تهامة، جدة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 49,
@@ -389,7 +389,7 @@ const things: Thing[] = [
     year: "1990",
     publisher: "دار الرفاعي، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 50,
@@ -397,7 +397,7 @@ const things: Thing[] = [
     year: "1971",
     publisher: "مطبعة دار الكتب، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 51,
@@ -405,7 +405,7 @@ const things: Thing[] = [
     year: "1999",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 52,
@@ -413,7 +413,7 @@ const things: Thing[] = [
     year: "1990",
     publisher: "بيت القرآن، البحرين",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 53,
@@ -421,7 +421,7 @@ const things: Thing[] = [
     year: "1976",
     publisher: "نادي الطائف الأدبي، الطائف",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 54,
@@ -429,7 +429,7 @@ const things: Thing[] = [
     year: "1997",
     publisher: "دار الساقي، بيروت؛ لندن",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 55,
@@ -437,7 +437,7 @@ const things: Thing[] = [
     year: "1987",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 56,
@@ -445,7 +445,7 @@ const things: Thing[] = [
     year: "2000",
     publisher: "دار الساقي، بيروت؛ لندن",
     notes: "باللغتين العربية والإنجليزية",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 57,
@@ -453,7 +453,7 @@ const things: Thing[] = [
     year: "2001",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 58,
@@ -461,7 +461,7 @@ const things: Thing[] = [
     year: "2006",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 59,
@@ -469,7 +469,7 @@ const things: Thing[] = [
     year: "2002",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 60,
@@ -477,7 +477,7 @@ const things: Thing[] = [
     year: "2007",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 61,
@@ -485,7 +485,7 @@ const things: Thing[] = [
     year: "2003",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 62,
@@ -493,7 +493,7 @@ const things: Thing[] = [
     year: "2002",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 63,
@@ -501,7 +501,7 @@ const things: Thing[] = [
     year: "2003",
     publisher: "دار الساقي، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 64,
@@ -509,7 +509,7 @@ const things: Thing[] = [
     year: "",
     publisher: "",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 65,
@@ -517,7 +517,7 @@ const things: Thing[] = [
     year: "2006",
     publisher: "مؤسسة دامه، جدة",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 66,
@@ -525,7 +525,7 @@ const things: Thing[] = [
     year: "2010",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 67,
@@ -533,7 +533,7 @@ const things: Thing[] = [
     year: "2010",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "ط2",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 68,
@@ -541,7 +541,7 @@ const things: Thing[] = [
     year: "2008",
     publisher: "دار القمرين، الرياض",
     notes: "ط2",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 69,
@@ -549,7 +549,7 @@ const things: Thing[] = [
     year: "2007",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 70,
@@ -557,7 +557,7 @@ const things: Thing[] = [
     year: "2010",
     publisher: "بيسان للنشر والتوزيع والإعلام، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 71,
@@ -565,7 +565,7 @@ const things: Thing[] = [
     year: "2014",
     publisher: "دار جداول للنشر، بيروت",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
   {
     id: 72,
@@ -573,7 +573,7 @@ const things: Thing[] = [
     year: "2004",
     publisher: "مكتبة العبيكان، الرياض",
     notes: "",
-    imageUrl: "/العصفورية.png",
+    imageUrl: "/writings/العصفورية.png",
   },
 ];
 
