@@ -1,6 +1,7 @@
+import Link from "next/link";
 import Image from "next/image";
 
-import { makeParallaxUrl } from "@/lib/utils";
+import { makeParallaxUrl } from "@lib/utils";
 
 const Header = () => {
   return (
@@ -11,14 +12,14 @@ const Header = () => {
         objectFit: "cover",
       }}
     >
-      <a href="/">
+      <Link href="/">
         <Image
           src="/logo.svg"
           width={337}
           height={70}
           alt="شعار الدكتور غازي عبدالرحمن القصيبي"
         />
-      </a>
+      </Link>
     </header>
   );
 };
