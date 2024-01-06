@@ -1,21 +1,22 @@
 import Image from "next/image";
-import logo from "@/app/images/logo.svg";
+
+import { makeParallaxUrl } from "@/lib/utils";
 
 const Header = () => {
   return (
     <header
-      className="flex h-24 flex-row items-center gap-4 bg-primary px-10"
+      className="flex h-24 flex-row items-center justify-center bg-primary px-10"
       style={{
-        backgroundImage: `url("/parallax/stars.svg")`,
+        backgroundImage: makeParallaxUrl("/stars.svg", true),
         objectFit: "cover",
       }}
     >
       <a href="/">
         <Image
-          src={logo}
+          src="/logo.svg"
           width={337}
           height={70}
-          alt="شعار غازي عبدالرحمن القصيبي"
+          alt="شعار الدكتور غازي عبدالرحمن القصيبي"
         />
       </a>
     </header>
