@@ -2,7 +2,7 @@
 
 import Sheet from "react-modal-sheet";
 
-import WritingTileSheetContent from "./WritingTileSheetContent";
+import WritingTileSheetContent from "./parts/WritingTileSheetContent";
 
 import { useWritingTileSheet } from "@lib/store/WritingTileSheet";
 

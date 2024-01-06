@@ -18,7 +18,7 @@ export default function RootLayout({
     <html
       lang="ar"
       dir="rtl"
-      className="scrollbar-track-primary scrollbar-thin scrollbar-thumb-outline"
+      className="scrollbar-thin scrollbar-track-primary scrollbar-thumb-outline"
     >
       <body className={sfArabicRounded.className}>{children}</body>
     </html>

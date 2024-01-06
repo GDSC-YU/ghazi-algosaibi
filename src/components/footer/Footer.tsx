@@ -1,15 +1,21 @@
+import { makeParallaxUrl } from "@lib/utils";
+
 const Footer = () => {
   return (
     <footer
       className="flex flex-col items-center bg-primary p-6"
       style={{
-        backgroundImage: `url("/parallax/stars.svg")`,
+        backgroundImage: makeParallaxUrl("/stars.svg", true),
         objectFit: "cover",
       }}
     >
-      <p className="text-base font-bold text-white">
-        صنع باستخدام الكثير من القهوة من قبل طلّاب جامعة اليمامة ☕️
-      </p>
+      <a
+        href="/?offset=5"
+        className="text-center font-bold text-white transition-transform duration-200 ease-in-out hover:scale-105"
+      >
+        صنع باستخدام الكثير من القهوة <br className="md:hidden" /> من قبل طلّاب
+        جامعة اليمامة ☕️
+      </a>
     </footer>
   );
 };

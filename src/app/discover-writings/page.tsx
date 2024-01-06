@@ -2,9 +2,8 @@ import { Suspense } from "react";
 
 import Header from "@components/header";
 import SearchBar from "@components/SearchBar";
-import Writings from "@components/writings";
-import WritingTileSheet from "@components/writings/parts/WiritingTileSheet";
-import Footer from "@components/footer/Footer";
+import { Writings, WritingTileSheet } from "@components/writings";
+import Footer from "@components/footer";
 
 export default function DiscoverWritings({
   searchParams,

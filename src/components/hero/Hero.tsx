@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 
 import { Parallax, ParallaxLayer, IParallax } from "@react-spring/parallax";
 
@@ -11,11 +11,22 @@ import { makeParallaxUrl } from "@lib/utils";
 const Hero = () => {
   const parallax = useRef<IParallax>(null!);
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+
+    const offset = params.get("offset");
+    const offsetNumber = Number(offset);
+
+    if (!isNaN(offsetNumber)) {
+      parallax.current.scrollTo(offsetNumber);
+    }
+  }, []);
+
   return (
     <Parallax
       ref={parallax}
       pages={6}
-      className="scrollbar-none bg-black text-white"
+      className="bg-black text-white scrollbar-none"
     >
       {/* background stars */}
       <ParallaxLayer
