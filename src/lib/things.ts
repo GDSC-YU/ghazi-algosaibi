@@ -13,7 +13,7 @@ const things: Thing[] = [
     year: "1976",
     publisher: "دار العلوم، الرياض",
     notes: "",
-    imageUrl: "/writings/أبيات غزل.jpg",
+    imageUrl: "/writings/أبيات غزل.jpg",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const things: Thing[] = [
     year: "2001",
     publisher: "المؤسسة العربية للدراسات والنشر، بيروت",
     notes: "",
-    imageUrl: "/writings/الأشج- قصيدة.jpeg",
+    imageUrl: "/writings/الأشج.jpeg",
   },
   {
     id: 5,
