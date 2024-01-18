@@ -4,5 +4,5 @@
 
 /* fixes a bug with the font on mobile phones */
 body {
-  @apply tracking-tighter sm:tracking-normal;
+  @apply relative min-h-screen tracking-tighter sm:tracking-normal;
 }
