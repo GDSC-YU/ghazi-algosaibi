@@ -19,7 +19,7 @@ const WritingTile = ({ thing }: { thing: Thing }) => {
         src={thing.imageUrl}
         alt={thing.title}
       />
-      <h3 className="line-clamp-2 text-xl">{thing.title}</h3>
+      <h3 className="line-clamp-2 text-xl font-semibold">{thing.title}</h3>
     </div>
   );
 };
