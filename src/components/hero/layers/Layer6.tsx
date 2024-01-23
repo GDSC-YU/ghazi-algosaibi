@@ -3,6 +3,7 @@ import { MutableRefObject } from "react";
 import { IParallax, ParallaxLayer } from "@react-spring/parallax";
 
 import styles from "../styles/Layer6.module.css";
+import Link from "next/link";
 
 const Layer6 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
   return (
@@ -24,10 +25,10 @@ const Layer6 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
               <br className="md:hidden" />
               جامعة اليمامة
             </a>{" "}
-            🎓:
+            🎓
           </p>
 
-          <div className="flex flex-col items-center justify-center gap-10 text-xl md:flex-row md:text-2xl lg:text-3xl">
+          {/* <div className="flex flex-col items-center justify-center gap-10 text-xl md:flex-row md:text-2xl lg:text-3xl">
             <a
               className={styles.animation}
               href={`https://khalil.im/`}
@@ -56,7 +57,7 @@ const Layer6 = ({ parallax }: { parallax: MutableRefObject<IParallax> }) => {
                 <p>يزيد الخلف</p>
               </div>
             </a>
-          </div>
+          </div> */}
         </div>
       </ParallaxLayer>
     </>
